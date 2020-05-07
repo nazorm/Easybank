@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: cover;
+    background-color: hsl(0, 0%, 98%);
+}
+.header{
+padding: 10px;
+}
+.headerNav-bar{
+    display: none;
+}
+.request-btn__header{
+    display: none;
+}
+.desktopHeader-logo{
+    display: none;
+}
+.hamburger{
+    float: right;
+}
+.image-overlay{
+    width: 80%;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+.mobile-intro{
+    width: 100%
+}
+.desktop-intro{
+    display: none;
+}
+.intro-section{
+    background-color:hsl(0, 0%, 100%);
+    text-align: center;
+}
+h1{
+    font-weight: lighter;
+    font-family: 'Risque';
+    font-size: 40px;
+    text-align: center;
+    color:hsl(233, 26%, 24%);
+}
+p{
+    color: gray;
+    padding: 10px;
+    color: gray
+}
+h3{
+    text-align: center;
+    font-weight: lighter;
+    color: gray
+}
+h4{
+    text-align: center;
+    color: gray
+}
+h5{
+    font-weight: lighter;
+    color: gray;    
+}
+h6{
+margin-left: 45px;
+color: white;
+font-weight: lighter;
+font-size: 13px;
+}
+.request-btn{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    border: 1px solid transparent;
+    font-size: 15px;
+    padding: 15px 45px;
+    margin: 0 0 40px 0;
+    border-radius: 30px;
+}
+.features-section{
+    width: 100%;
+    text-align: center;
+}
+.feature-image{
+    margin: 0 140PX;
+}
+.article-image{
+width: 100%;  
+padding: center; 
+}
+.article{
+    background-color: white;
+    margin-top: 20px;
+}
+.footer{
+   background-color: hsl(233, 26%, 24%); 
+   padding: 30px 50px 20px 10px;
+  text-align: center;
+}
+.footer-logo{
+    text-align: center;
+    margin-left:30px;
+    background-color: white;
+}
+.icons{
+    margin-top: 20px;
+    margin-left:30px;
+}
+.icon{
+    margin: 5px;
+}
+.request-btn__footer{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.ul{
+list-style: none;
+color: white;
+font-weight: lighter;
+}
+.ol{
+    display: none;
+}
+li{
+    margin-top: 10px;
+}
+.attribution { font-size: 11px; 
+    text-align: center;
+width: 100%; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+/*Desktop Styles*/
+@media only screen and (min-width: 960px){
+    body{
+        width: cover;
+    }
+    .hamburger{
+        display: none;
+    }
+    .mobileHeader-logo{
+        display: none;
+    }
+    .desktopHeader-logo{
+display: inline;   
+font-size: 5px;
+ }
+    .desktop-header{
+        display: flex;
+        justify-content: space-around;
+    }
+.mobile-intro{
+    display: none;
+}
+.headerNav-bar{
+    display: inline;
+    align-self: center;
+    word-spacing: 1em;
+    }
+    .headerNav-bar :hover{
+        cursor: pointer;
+        color: lawngreen;
+    }
+    .navBar-item{
+        color: gray;
+        text-decoration: none;
+    }
+.request-btn__header{
+    display: inline;
+    color: white;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.desktop-intro{
+    display: block;
+    width: 45%;
+}
+.image-overlay{
+    width: 38%;
+    left: 60%;
+}
+.intro-section{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.intro{
+    flex: 25%;
+    align-self: center;
+    text-align: start;
+    padding: 210px;
+}
+.request-btn__intro{
+    margin: 0 290px 0 0;
+}
+.features-section{
+    padding: 50px;
+    width: 100%;
+}
+.features{
+    display: flex;
+    width: 100%;
+}
+.feature{
+    margin: 0 10px;
+    background-color: white;   
+}
+.feature-head{
+    text-align: start;
+}
+.feature-p{
+    text-align: start;
+   width: 30%;
+}
+.feature-text{
+    width: 80%;
+    text-align: start;
+}
+.articles{
+    width: 100%;
+    display: flex;
+}
+.article{
+    margin: 0 10px;
+}
+.article-head{
+    text-align: start;
+    
+}
+.article-section{
+    padding: 50px;
+}
+.articletext{
+    width: 30%;
+    border: 1px solid black;
+}
+.ul{
+    display: none;
+}
+.ol{
+    display: inline;
+    color: white;
+    list-style: none;
+    text-align: start;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-first{
+    align-self: center;
+}
+
+.footer-third{
+    align-self: center;
+}
+h6{
+    margin-top: 8%;
+}
+.request-btn__footer{
+    margin: 8% 0 5% 35%;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+}
